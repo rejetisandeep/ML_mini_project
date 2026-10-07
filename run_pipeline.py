@@ -3,6 +3,8 @@ CLI script to trigger the full 12-stage Machine Learning training and evaluation
 """
 import sys
 import os
+import matplotlib
+matplotlib.use('Agg')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
