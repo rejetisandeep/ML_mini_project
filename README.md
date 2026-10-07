@@ -7,10 +7,6 @@
 
 ---
 
-## ⚡ Quick Start (Run This First)
-
-> **New to the project? Follow these 3 steps.**
-
 **Step 1 — Install dependencies** (only once):
 ```bash
 pip install -r requirements.txt
@@ -26,11 +22,6 @@ python run_pipeline.py
 python run_app.py
 ```
 Then open your browser at **http://localhost:8501**
-
-> ⚠️ **Important**: Always use `python run_app.py` — NOT `streamlit run app.py`.
-> The `streamlit` command often fails on Windows because it requires Python's Scripts
-> folder to be on the system PATH. `python run_app.py` uses `python -m streamlit`
-> internally, which works on **any system, any OS, without any PATH setup**.
 
 ---
 
@@ -101,7 +92,7 @@ Ml_mini_#2/
 - Python 3.10 or higher installed
 - Run all commands from inside the project folder:
   ```
-  C:\Users\madda\OneDrive\Desktop\Ml_mini_#2
+
   ```
 
 ---
